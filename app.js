@@ -20,8 +20,6 @@ mongoose.connect(process.env.DB_MONGO,
 // Lancement Express
 const app = express();
 
-// console.log(process.env.DB_USER);
-
 // Confguration CORS 
 app.use((req, res, next) => {
     res.setHeader('Access-Control-Allow-Origin', '*');
