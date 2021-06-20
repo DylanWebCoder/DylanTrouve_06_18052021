@@ -1,6 +1,5 @@
 const Sauce = require('../models/sauce');
 const fs = require('fs');
-const { use } = require('../routes/user');
 
 // Afficher les sauces
 exports.getAllSauces = (req, res, next) => {
