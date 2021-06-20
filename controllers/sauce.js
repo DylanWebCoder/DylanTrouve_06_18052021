@@ -96,7 +96,6 @@ exports.likeDislikeSauce = (req, res, next) => {
         .catch(error => res.status(400).json({ error })) 
     })
     
-    .catch(error => {console.log("ici");
-      res.status(500).json(({ error }))})
+    .catch(error => res.status(500).json(({ error })))
   
 };
